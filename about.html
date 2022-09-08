@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Table Exercise</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="header">
+		<h1>Contact List</h1>
+		<p>Feel free to input and add yourself into my contact list!</p>
+	</div>
+
+	<div class="container">
+
+		<div class="inputTable">
+			<form id="input">
+				<label for="lname">Enter Last Name:</label><br>
+				<input type="text" id="lastName">
+			</form>
+
+			<form>
+				<label for="fname">Enter First Name:</label><br>
+				<input type="text" id="firstName">
+			</form>
+
+			<form>
+				<label for="email">Enter Email Address:</label><br>
+				<input type="email" id="email">
+			</form>
+
+			<form>
+				<label for="contact">Enter Contact Number:</label><br>
+				<input type="text" id="contact">
+			</form>
+
+			<input type="submit" value="Add" id="add" class="addBtn">
+		</div>
+
+		<div class="displayTable">
+			<table id="tabData">
+				<tr>
+					<th>Last Name</th>
+					<th>First Name</th>
+					<th>Email Address</th>
+					<th>Contact Number</th>
+					<th style="border: none"></th>
+				</tr>
+			</table>
+		</div>
+		
+	</div>
+
+	<footer>
+		JAO
+	</footer>
+	<script type="text/javascript" src="table.js"></script>
+	
+</body>
+</html>
